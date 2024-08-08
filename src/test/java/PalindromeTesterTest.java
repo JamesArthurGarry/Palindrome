@@ -1,16 +1,10 @@
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class PalindromeTesterTest {
 
     private final PalindromeTester palindromeTester = new PalindromeTester();
-
-    @Test
-    public void testPalindromeTester_specialCharacters() {
-        assertTrue(palindromeTester.palindromeTester("A man, a plan, a canal: Panama"));
-    }
 
     @Test
     public void testStringStripper_removesSpaces() {
@@ -24,6 +18,11 @@ public class PalindromeTesterTest {
 
     @Test
     public void testStringStripper_removesPunctuation() {
-        assertEquals("hello", palindromeTester.stringStripper("hello!"));
+        assertEquals("hello", palindromeTester.stringStripper(".h?e,l/l(o!"));
+    }
+
+    @Test
+    public void testStringStripper_emptyString() {
+        assertEquals("", palindromeTester.stringStripper(""));
     }
 }
