@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="PalindromeTesterTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2024-08-08T19:23:13" hostname="FLANDERS" time="0.017">
+<testsuite name="PalindromeTesterTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2024-08-08T20:10:23" hostname="FLANDERS" time="0.026">
   <properties/>
-  <testcase name="testStringStripper_removesCapitalization()" classname="PalindromeTesterTest" time="0.014"/>
-  <testcase name="testStringStripper_removesPunctuation()" classname="PalindromeTesterTest" time="0.0"/>
+  <testcase name="testStringStripper_removesCapitalization()" classname="PalindromeTesterTest" time="0.018"/>
+  <testcase name="testStringStripper_removesPunctuation()" classname="PalindromeTesterTest" time="0.001"/>
+  <testcase name="testPalindromeTester_stripping()" classname="PalindromeTesterTest" time="0.001"/>
+  <testcase name="testPalindromeTester_false()" classname="PalindromeTesterTest" time="0.001"/>
+  <testcase name="testPalindromeTester_true_odd()" classname="PalindromeTesterTest" time="0.001"/>
+  <testcase name="testPalindromeTester_0or1length()" classname="PalindromeTesterTest" time="0.001"/>
+  <testcase name="testPalindromeTester_true_even()" classname="PalindromeTesterTest" time="0.001"/>
   <testcase name="testStringStripper_emptyString()" classname="PalindromeTesterTest" time="0.0"/>
   <testcase name="testStringStripper_removesSpaces()" classname="PalindromeTesterTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
